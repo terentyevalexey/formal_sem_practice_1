@@ -5,3 +5,7 @@ compile and run on arm
 if it doesn't work, remove extern "C" before void jit_compile_expression_to_arm
 it passed tests on ejudge
 you can test it by rules from ejudge-64.atp-fivt.org
+
+Описание:
+Парсинг текста происходит алгоритмом сортировочной станции, который переводит инфиксную запись в постфиксную, которую можно выполнить в виде 2 стеков.
+
